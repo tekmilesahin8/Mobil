@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tekmile.odev.MainActivity4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="135dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnYeniSifre"
+        android:layout_width="298dp"
+        android:layout_height="59dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Yeni Şifre Gönder"
+        android:background="@color/purple_500"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="229dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÜYE GİRİŞİ"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="35dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtBilgiler"
+        android:layout_width="98dp"
+        android:layout_height="44dp"
+        android:text="   Bilgiler"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

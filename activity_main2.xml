@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tekmile.odev.MainActivity2">
+
+    <Button
+        android:id="@+id/btn_UyelOl"
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:background="@color/purple_500"
+        android:onClick="uyeolmabutonu"
+        android:text="Üye Ol"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="840dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="715dp" />
+
+    <TextView
+        android:id="@+id/txt_Sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <TextView
+        android:id="@+id/txt_DogumYeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğum Yeri"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="237dp"
+        android:layout_height="32dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/txt_Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="733dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <TextView
+        android:id="@+id/txt_DogumTarihi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğum Tarihiniz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/txt_Cinsiyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinsiyet"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <TextView
+        android:id="@+id/txt_AdSoyad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adınız-Soyadınız"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_Cİnsiyet"
+        android:layout_width="361dp"
+        android:layout_height="120dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="358dp">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erkek"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kadın"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÜYE GİRİŞİ"
+        android:textSize="35dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

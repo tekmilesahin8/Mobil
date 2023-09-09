@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_GirisSayfasinaGit"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@color/teal_200"
+        android:text="Giriş Yap"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_UyeOlSayfasinaGit"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/purple_200"
+        android:text="Üye ol"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_SifremiUnuttum"
+        android:layout_width="155dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/teal_700"
+        android:text="Şifremi Unuttum"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="ÜYE GİRİŞİ"
+        android:layout_marginTop="-420dp"
+        android:textSize="60sp" />
+
+
+</LinearLayout>
